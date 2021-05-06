@@ -1,0 +1,102 @@
+body{
+    text-align: left;
+    background-image: url(W4P42R.JPG);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 1280px;
+    height: 500px;
+    font-weight: bolder;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.everything{
+    margin: 4px;
+}
+
+.header{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.content{
+    display: inline-flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    margin-top: 5%;
+    margin-left: 20%;
+    margin-bottom: 10%;
+}
+.content-1{
+    display: flex;
+    flex-direction:row;
+    font-size: 1.5rem;
+}
+.content-2 h1{
+    margin-top: 0px;
+    font-size: 3.5rem;
+}
+.content-3 p{
+    line-height: 25px;
+    margin: 0;
+}
+hr{
+    transform: rotate(90deg);
+    margin-left: 30px;
+    height: 40px;
+    margin-top: 14%;
+    background-color: black;
+    border: 1px solid black;
+}
+img{
+    height: 30%;
+    width: 20%;
+    margin-left: 0px;
+    border: 2px solid black;
+}
+ul{
+    width: 100%;
+    list-style: none;
+    display: inline-flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+ul a li{
+    margin-left: 30px;
+    margin-right: 30px;
+}
+a{
+    text-decoration: none;
+    color: rgb(233, 231, 229);
+}
+.btn{
+    color: blanchedalmond;
+    background-color: black;
+    padding: 10px;
+    width: 150px;
+    border-radius: 4px;
+    margin-top: 8%;
+}
+a:hover{
+    color: rgb(26, 23, 19);
+    text-decoration: underline;
+    text-transform: uppercase;
+}
+.btn:hover{
+    background-color: cadetblue;
+    color: black;
+    text-decoration: underline;
+    text-transform: uppercase;
+}
+.btn:focus{
+    border: 2px solid black;
+}
+@media only screen and (max-width: 700px){
+    .header{
+        flex-direction: column;
+    }
+    .content{
+        margin-left: 5%;
+    }
+}
